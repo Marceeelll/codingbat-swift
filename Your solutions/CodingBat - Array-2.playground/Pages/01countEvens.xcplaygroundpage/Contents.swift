@@ -12,6 +12,7 @@ import UIKit
  */
 
 func countEvens(_ nums: [Int]) -> Int {
+    // Your solution
 }
 
 countEvens([2, 1, 2, 3, 4]) == 3
