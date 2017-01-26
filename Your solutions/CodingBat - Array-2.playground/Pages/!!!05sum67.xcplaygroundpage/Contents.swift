@@ -13,7 +13,6 @@ import Foundation
  */
 
 func sum67(_ nums: [Int]) -> Int {
-    // cooming soon :)
 }
 
 sum67([1, 2, 2]) == 5
