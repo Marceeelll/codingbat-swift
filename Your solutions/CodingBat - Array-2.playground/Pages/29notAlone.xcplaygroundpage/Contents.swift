@@ -13,6 +13,7 @@ import Foundation
  */
 
 func notAlone(_ nums: [Int], _ val: Int) -> [Int] {
+    return []
 }
 
 notAlone([1, 2, 3], 2) == [1, 3, 3]

@@ -13,6 +13,7 @@ import Foundation
  */
 
 func either24(_ nums: [Int]) -> Bool {
+    return false
 }
 
 

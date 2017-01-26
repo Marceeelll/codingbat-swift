@@ -13,6 +13,7 @@ import Foundation
  */
 
 func zeroMax(_ nums: [Int]) -> [Int] {
+    return []
 }
 
 

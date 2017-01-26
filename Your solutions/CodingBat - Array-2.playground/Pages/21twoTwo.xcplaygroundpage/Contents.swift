@@ -13,6 +13,7 @@ import Foundation
  */
 
 func twoTwo(_ nums: [Int]) -> Bool {
+    return false
 }
 
 twoTwo([4, 2, 2, 3]) == true

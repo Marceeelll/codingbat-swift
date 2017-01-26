@@ -13,6 +13,7 @@ import Foundation
  */
 
 func post4(_ nums: [Int]) -> [Int] {
+    return []
 }
 
 

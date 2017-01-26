@@ -13,6 +13,7 @@ import Foundation
  */
 
 func withoutTen(_ nums: [Int]) -> [Int] {
+    return []
 }
 
 

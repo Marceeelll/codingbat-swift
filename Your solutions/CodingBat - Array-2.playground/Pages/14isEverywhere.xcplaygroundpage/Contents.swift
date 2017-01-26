@@ -13,6 +13,7 @@ import Foundation
  */
 
 func isEverywhere(_ nums: [Int], _ val: Int) -> Bool {
+    return false
 }
 
 isEverywhere([1, 2, 1, 3], 1) == true

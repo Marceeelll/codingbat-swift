@@ -13,6 +13,7 @@ import Foundation
  */
 
 func fizzArray3(_ start: Int, _ end: Int) -> [Int] {
+    return []
 }
 
 

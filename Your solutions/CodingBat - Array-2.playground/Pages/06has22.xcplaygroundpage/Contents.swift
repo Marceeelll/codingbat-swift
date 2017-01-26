@@ -13,6 +13,7 @@ import Foundation
  */
 
 func has22(_ nums: [Int]) -> Bool {
+    return false
 }
 
 has22([1, 2, 2]) == true

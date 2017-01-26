@@ -13,6 +13,7 @@ import Foundation
  */
 
 func sum28(_ nums: [Int]) -> Bool {
+    return false
 }
 
 sum28([2, 3, 2, 2, 4, 2]) == true

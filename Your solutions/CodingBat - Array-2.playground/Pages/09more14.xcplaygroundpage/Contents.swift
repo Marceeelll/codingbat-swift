@@ -13,6 +13,7 @@ import Foundation
  */
 
 func more14(_ nums: [Int]) -> Bool {
+    return false
 }
 
 more14([1, 4, 1]) == true

@@ -12,6 +12,7 @@ import Foundation
  */
 
 func sum13(_ nums: [Int]) -> Int {
+    return -1
 }
 
 sum13([1, 2, 2, 1]) == 6

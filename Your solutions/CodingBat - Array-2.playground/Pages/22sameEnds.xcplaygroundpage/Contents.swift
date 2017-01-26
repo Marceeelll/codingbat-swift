@@ -13,6 +13,7 @@ import Foundation
  */
 
 func sameEnds(_ nums: [Int], _ len: Int) -> Bool {
+    return false
 }
 
 sameEnds([5, 6, 45, 99, 13, 5, 6], 1) == false

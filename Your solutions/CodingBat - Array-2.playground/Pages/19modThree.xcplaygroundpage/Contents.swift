@@ -13,6 +13,7 @@ import Foundation
  */
 
 func modThree(_ nums: [Int]) -> Bool {
+    return false
 }
 
 modThree([2, 1, 3, 5]) == true

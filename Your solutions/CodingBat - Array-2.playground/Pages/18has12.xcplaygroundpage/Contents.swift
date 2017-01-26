@@ -13,6 +13,7 @@ import Foundation
  */
 
 func has12(_ nums: [Int]) -> Bool {
+    return false
 }
 
 has12([1, 3, 2]) == true

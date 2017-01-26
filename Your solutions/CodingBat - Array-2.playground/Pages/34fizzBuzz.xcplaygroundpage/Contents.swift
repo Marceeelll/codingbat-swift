@@ -13,6 +13,7 @@ import Foundation
  */
 
 func fizzBuzz(_ start: Int, _ end: Int) -> [String] {
+    return []
 }
 
 fizzBuzz(1, 6) == ["1", "2", "Fizz", "4", "Buzz"]

@@ -13,6 +13,7 @@ import Foundation
  */
 
 func lucky13(_ nums: [Int]) -> Bool {
+    return false
 }
 
 lucky13([0, 2, 4]) == true

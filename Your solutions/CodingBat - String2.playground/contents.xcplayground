@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='21wordEnds'/>
+        <page name='20 plusOut'/>
+        <page name='19starOut'/>
+        <page name='18zipZap'/>
+        <page name='17oneTwo'/>
+        <page name='16sameStarChar'/>
+        <page name='15getSandwich'/>
+        <page name='14xyzMiddle'/>
+        <page name='13prefixAgain'/>
+        <page name='12repeatSeperator'/>
+        <page name='11repeatFront'/>
+        <page name='10repeatEnd'/>
+        <page name='09mixString'/>
+        <page name='08xyBalance'/>
+        <page name='07bobThere'/>
+        <page name='06xyzThere'/>
+        <page name='05endOther'/>
+        <page name='04countCode'/>
+        <page name='03catDog'/>
+        <page name='02countHi'/>
+        <page name='01doubleChar'/>
+    </pages>
+</playground>

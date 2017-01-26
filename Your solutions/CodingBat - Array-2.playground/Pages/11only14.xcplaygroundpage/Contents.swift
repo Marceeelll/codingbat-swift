@@ -13,6 +13,7 @@ import Foundation
  */
 
 func only14(_ nums: [Int]) -> Bool {
+    return false
 }
 
 only14([1, 4, 1, 4]) == true

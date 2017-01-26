@@ -13,6 +13,7 @@ import Foundation
  */
 
 func zeroFront(_ nums: [Int]) -> [Int] {
+    return []
 }
 
 zeroFront([1, 0, 0, 1]) == [0, 0, 1, 1]

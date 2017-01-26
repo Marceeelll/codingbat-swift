@@ -13,6 +13,7 @@ import Foundation
  */
 
 func shiftLeft(_ nums: [Int]) -> [Int] {
+    return []
 }
 
 

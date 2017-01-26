@@ -12,6 +12,7 @@ import Foundation
  */
 
 func centeredAverage(_ nums: [Int]) -> Int {
+    return -1
 }
 
 centeredAverage([1, 2, 3, 4, 100]) == 3

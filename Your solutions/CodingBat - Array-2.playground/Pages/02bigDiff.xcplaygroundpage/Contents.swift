@@ -12,6 +12,7 @@ import Foundation
  */
 
 func bigDiff(_ nums: [Int]) -> Int {
+    return -1
 }
 
 bigDiff([10, 3, 5, 6]) == 7

@@ -13,6 +13,7 @@ import Foundation
  */
 
 func haveThree(_ nums: [Int]) -> Bool {
+    return false
 }
 
 haveThree([3, 1, 3, 1, 3]) == true

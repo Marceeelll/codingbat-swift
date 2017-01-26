@@ -13,6 +13,7 @@ import Foundation
  */
 
 func has77(_ nums: [Int]) -> Bool {
+    return false
 }
 
 has77([1, 7, 7]) == true

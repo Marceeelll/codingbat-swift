@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='33withoutX2'/>
+        <page name='32withoutX'/>
+        <page name='31startWord'/>
+        <page name='30deFront'/>
+        <page name='29without2'/>
+        <page name='28extraFront'/>
+        <page name='27minCat'/>
+        <page name='26frontAgain'/>
+        <page name='25seeColor'/>
+        <page name='24lastTwo'/>
+        <page name='23conCat'/>
+        <page name='22lastChar'/>
+        <page name='21atFirst'/>
+        <page name='20hasBad'/>
+        <page name='19middleThree'/>
+        <page name='18twoChar'/>
+        <page name='17nTwice'/>
+        <page name='16endsLy'/>
+        <page name='15middleTwo'/>
+        <page name='14withouEnd2'/>
+        <page name='13theEnd'/>
+        <page name='12right2'/>
+        <page name='11left2'/>
+        <page name='10nonStart'/>
+        <page name='09comboString'/>
+        <page name='08withoutEnd'/>
+        <page name='07firstHalf'/>
+        <page name='06firstTwo'/>
+        <page name='05extraEnd'/>
+        <page name='04makeOutWord'/>
+        <page name='03makeTags'/>
+    </pages>
+</playground>

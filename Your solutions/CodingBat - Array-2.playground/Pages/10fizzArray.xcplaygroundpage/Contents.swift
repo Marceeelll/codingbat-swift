@@ -13,6 +13,7 @@ import Foundation
  */
 
 func fizzArray(_ n: Int) -> [Int] {
+    return []
 }
 
 fizzArray(4) == [0, 1, 2, 3]
