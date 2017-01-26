@@ -15,7 +15,7 @@ If you open the playground for the first time, you probably see something like t
 
 
 #How do I know if my code is correct?
-If you see only <b>“truth”</b> on the right side, you know your code is working :)
+If you see only <b>“truth”</b> on the right side, you know that your code is correct :)
 <img alt="Image 2" src="https://raw.githubusercontent.com/Marceeelll/codingbat-swift/master/readme%20images/image2.png">
 
 #Awesome, where can I solve the next problem?
