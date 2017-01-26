@@ -1,7 +1,8 @@
 # codingbat-swift
 `print("Hello World!")`
 
-I uploaded all my solutions for the problems from codingbat.com (done in <b>Swift 3</b>).
+I uploaded all my solutions for the problems from codingbat.com (done in <b>Swift 3.0</b>).
+
 Have fun with swift :)
 And feel free to commit your answer, if it is more efficient ✌️😊
 
