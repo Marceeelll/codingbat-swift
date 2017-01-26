@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='34fizzBuzz'/>
+        <page name='33evenOdd'/>
+        <page name='32zeroMax'/>
+        <page name='31withoutTen'/>
+        <page name='30zeroFront'/>
+        <page name='29notAlone'/>
+        <page name='28post4'/>
+        <page name='27pre4'/>
+        <page name='26tenRun'/>
+        <page name='25shiftLeft'/>
+        <page name='24fizzArray3'/>
+        <page name='23tripleUp'/>
+        <page name='22sameEnds'/>
+        <page name='21twoTwo'/>
+        <page name='20haveThree'/>
+        <page name='19modThree'/>
+        <page name='18has12'/>
+        <page name='17has77'/>
+        <page name='16matchUp'/>
+        <page name='15either24'/>
+        <page name='14isEverywhere'/>
+        <page name='13no14'/>
+        <page name='12fizzArray2'/>
+        <page name='11only14'/>
+        <page name='10fizzArray'/>
+        <page name='09more14'/>
+        <page name='08sum28'/>
+        <page name='07lucky13'/>
+        <page name='06has22'/>
+        <page name='!!!05sum67'/>
+        <page name='04sum13'/>
+        <page name='03centeredAverage'/>
+        <page name='02bigDiff'/>
+        <page name='01countEvens'/>
+    </pages>
+</playground>
