@@ -21,6 +21,6 @@ If you see only <b>“truth”</b> on the right side, you know that your code is
 <img alt="Image 2" src="https://raw.githubusercontent.com/Marceeelll/codingbat-swift/master/readme%20images/image2.png">
 
 #Awesome, where can I solve the next problem?
-Press <b>⌘ + 1</b> to open the menu on the right side (close it with: <b>⌘ + 0</b>)
+Press <b>⌘ + 1</b> to open the menu on the left side (close it with: <b>⌘ + 0</b>)
 
 <img alt="Image 3" height="587" width="174" src="https://raw.githubusercontent.com/Marceeelll/codingbat-swift/master/readme%20images/image3.png">
