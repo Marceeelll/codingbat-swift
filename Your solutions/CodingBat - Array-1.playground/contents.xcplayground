@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='27front11'/>
+        <page name='26make2'/>
+        <page name='25unlucky1'/>
+        <page name='24frontPiece'/>
+        <page name='23maxTriple'/>
+        <page name='22midThree'/>
+        <page name='21swapEnds'/>
+        <page name='20plusTwo'/>
+        <page name='19makeMiddle'/>
+        <page name='18biggerTwo'/>
+        <page name='17start1'/>
+        <page name='16fix23'/>
+        <page name='15double23'/>
+        <page name='14makeLast'/>
+        <page name='13no23'/>
+        <page name='12has23'/>
+        <page name='11makeEnds'/>
+        <page name='10middleWay'/>
+        <page name='09sum2'/>
+        <page name='08maxEnd3'/>
+        <page name='07reverse3'/>
+        <page name='06rotateLeft3'/>
+        <page name='05sum3'/>
+        <page name='04commonEnd'/>
+        <page name='03makePi'/>
+        <page name='02sameFirstLast'/>
+        <page name='01firstLast6'/>
+    </pages>
+</playground>
