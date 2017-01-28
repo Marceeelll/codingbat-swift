@@ -9,7 +9,7 @@ And feel free to commit your solutions, if it is more efficient ✌️😊
 
 
 # How to use this Repository?
-First have a look to the folder <b>"You Solutions"</b>.
+First have a look to the folder <b>"Your Solutions"</b>.
 There you find all the playground files for Xcode, where you can try to program your own solution.
 
 If you open the playground for the first time, you probably see something like this:
@@ -17,7 +17,7 @@ If you open the playground for the first time, you probably see something like t
 
 
 #How do I know if my code is correct?
-If you see only <b>“truth”</b> on the right side, you know that your code is correct :)
+If you see only <b>“true”</b> on the right side, you know that your code is correct :)
 <img alt="Image 2" src="https://raw.githubusercontent.com/Marceeelll/codingbat-swift/master/readme%20images/image2.png">
 
 #Awesome, where can I solve the next problem?
