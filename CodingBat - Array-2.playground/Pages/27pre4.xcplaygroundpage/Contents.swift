@@ -14,15 +14,12 @@ import Foundation
 
 func pre4(_ nums: [Int]) -> [Int] {
     var result = [Int]()
-    var nextIndexIs4 = false
     
-    for i in 0..<nums.count-1 {
-        if nums[i] != 4 && !nextIndexIs4 {
-            result.append(nums[i])
-        }
-        
-        if nums[i+1] == 4 {
-            nextIndexIs4 = true
+    for num in nums {
+        if num == 4 {
+            break
+        } else {
+            result.append(num)
         }
     }
     

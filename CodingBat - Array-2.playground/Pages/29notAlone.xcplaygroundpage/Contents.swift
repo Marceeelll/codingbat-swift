@@ -13,23 +13,18 @@ import Foundation
  */
 
 func notAlone(_ nums: [Int], _ val: Int) -> [Int] {
-    var result = nums
+    var results = nums
     
-    if nums.count >= 3 {
-        for i in 1..<nums.count - 1 {
-            if nums[i] == val {
-                if nums[i-1] != val && nums[i+1] != val {
-                    var max = nums[i-1]
-                    if nums[i+1] > max {
-                        max = nums[i+1]
-                    }
-                    result[i] = max
-                }
+    if results.count >= 3 {
+        for i in 1..<results.count - 1 {
+            if results[i] == val && results[i-1] != val && results[i+1] != val {
+                let max = results[i-1] > results[i+1] ? results[i-1] : results[i+1]
+                results[i] = max
             }
         }
     }
     
-    return result
+    return results
 }
 
 notAlone([1, 2, 3], 2) == [1, 3, 3]

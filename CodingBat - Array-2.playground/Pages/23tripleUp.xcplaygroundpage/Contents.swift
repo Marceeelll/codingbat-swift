@@ -13,13 +13,9 @@ import Foundation
  */
 
 func tripleUp(_ nums: [Int]) -> Bool {
-    nums.count % 3
-    nums.count - (nums.count % 3)
-    if nums.count < 3 {
-        return false
-    } else {
+    if nums.count >= 3 {
         for i in 0..<nums.count-2 {
-            if nums[i]+1 == nums[i+1] && nums[i+1] == nums[i+2]-1 {
+            if nums[i] == nums[i+1]-1 && nums[i] == nums[i+2]-2 {
                 return true
             }
         }

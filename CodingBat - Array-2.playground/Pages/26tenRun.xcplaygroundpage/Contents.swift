@@ -14,20 +14,16 @@ import Foundation
 
 func tenRun(_ nums: [Int]) -> [Int] {
     var result = [Int]()
-    var tenMultiplikator = 0
-    var foundZero = false
+    var mod10 = -1
     
     for num in nums {
         if num % 10 == 0 {
-            tenMultiplikator = num
-            foundZero = num == 0 ? true : false
+            mod10 = num
         }
-        if tenMultiplikator == 0 && !foundZero {
-            result.append(num)
-            print("2")
+        if mod10 != -1 {
+            result.append(mod10)
         } else {
-            result.append(tenMultiplikator)
-            print("3")
+            result.append(num)
         }
     }
     

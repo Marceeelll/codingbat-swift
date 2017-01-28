@@ -14,20 +14,13 @@ import Foundation
 
 func post4(_ nums: [Int]) -> [Int] {
     var result = [Int]()
-    
-    if nums.count > 0 {
-        var index = 0
-        for i in (0..<nums.count).reversed() {
-            if nums[i] == 4 {
-                index = i + 1
-                break
-            }
-        }
-        for i in index..<nums.count {
-            result.append(nums[i])
+    for num in nums.reversed() {
+        if num == 4 {
+            break
+        } else {
+            result.insert(num, at: 0)
         }
     }
-    
     return result
 }
 
