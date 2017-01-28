@@ -13,10 +13,24 @@ import UIKit
  */
 
 func maxSpan(_ nums: [Int]) -> Int {
-    // coming soon :)
+    var maxSpan = 0
+    
+    for i in 0..<nums.count {
+        for m in (i..<nums.count).reversed() {
+            if nums[m] == nums[i] {
+                let tmpSpan = m - (i-1)
+                if maxSpan < tmpSpan {
+                    maxSpan = tmpSpan
+                }
+                break
+            }
+        }
+    }
+    
+    return maxSpan
 }
 
-
+maxSpan([1, 2, 1, 1, 3])
 maxSpan([1, 2, 1, 1, 3]) == 4
 maxSpan([1, 4, 2, 1, 4, 1, 4]) == 6
 maxSpan([1, 4, 2, 1, 4, 4, 4]) == 6
