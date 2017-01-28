@@ -13,25 +13,22 @@ import Foundation
  */
 
 func twoTwo(_ nums: [Int]) -> Bool {
-    var every2IsNextToAnother2 = true
-    
-    if nums.count > 0 {
-        for i in 0..<nums.count - 1 {
-            if nums[i] == 2 {
-                if i>0 && (nums[i-1] != 2 && nums[i+1] != 2) {
-                    every2IsNextToAnother2 = false
-                }
+    for i in 0..<nums.count {
+        if nums[i] == 2 {
+            var found2around = false
+            
+            if i > 0 && nums[i-1] == 2 {
+                found2around = true
+            }
+            if i < nums.count-1 && nums[i+1] == 2 {
+                found2around = true
+            }
+            if !found2around {
+                return false
             }
         }
-        if nums.count >= 2 && nums[nums.count-1] == 2 && nums[nums.count-2] != 2 {
-            every2IsNextToAnother2 = false
-        }
-        if nums.count == 1 && nums[0] == 2 {
-            every2IsNextToAnother2 = false
-        }
     }
-    
-    return every2IsNextToAnother2
+    return true
 }
 
 twoTwo([4, 2, 2, 3]) == true
