@@ -13,7 +13,33 @@ import Foundation
  */
 
 func maxMirror(_ nums: [Int]) -> Int {
-    // coming soon :)
+    var maxFoundedMatches = 0
+    var array1 = [Int]()
+    var array2 = [Int]()
+    
+    for frontStart in 0..<nums.count {
+        
+        for endStart in (0..<nums.count).reversed() {
+            array1 = []
+            
+            for i in frontStart..<nums.count {
+                var runFound = 0
+                array1.append(nums[i])
+                array2 = []
+                
+                for m in (endStart..<nums.count) {
+                    array2.insert(nums[m], at: 0)
+                    if array1 == array2 {
+                        runFound = array1.count
+                    }
+                    if maxFoundedMatches < runFound { maxFoundedMatches = runFound }
+                }
+            }
+            
+        }
+    }
+    
+    return maxFoundedMatches
 }
 
 maxMirror([1, 2, 3, 8, 9, 3, 2, 1]) == 3
